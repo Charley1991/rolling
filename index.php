@@ -3,17 +3,16 @@
 <html lang="zh-CN">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">                    
+    <meta http-equiv="Page-Enter" content="revealTrans(duration=2,transition=23)">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="favicon.ico">
+    <link rel="icon" href="img/favicon.ico">
 
     <title>Blog for Rolling Engineering</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/bootstrap.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
     <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
@@ -25,28 +24,16 @@
       <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-
   <body>
-    <div class="header">
-      <div class="container">
-        <nav class="blog-nav">
-          <a class="blog-nav-item active" href="#">Home</a>
-          <a class="blog-nav-item" href="#">New features</a>
-          <a class="blog-nav-item" href="#">Press</a>
-          <a class="blog-nav-item" href="#">New hires</a>
-          <a class="blog-nav-item" href="#">About</a>
-        </nav>
-      </div>
-    </div>
-  
+    <header>
+            <a class="active" href="#" >Home</a>
+            <a href="#" >Blog</a>
+            <a href="#" >Project</a>
+            <a href="#" >Tools</a>
+            <a href="#" >Message</a> 
+    </header>
     <div class="container">
-
-      <div class="blog-header">
-        <h1 class="blog-title">The Bootstrap Blog</h1>
-        <p class="lead blog-description">The official example template of creating a blog with Bootstrap.</p>
-      </div>
-
-      <div class="row">
+    <div class="row">
 
         <div class="col-sm-8 blog-main">
 
@@ -54,7 +41,7 @@
             <h2 class="blog-post-title">Sample blog post</h2>
             <p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>
 
-            <p>This blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
+            <p>这个 blog post shows a few different types of content that's supported and styled with Bootstrap. Basic typography, images, and code are all supported.</p>
             <hr>
             <p>Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
             <blockquote>
@@ -151,19 +138,17 @@
         </div><!-- /.blog-sidebar -->
 
       </div><!-- /.row -->
-
+      
     </div><!-- /.container -->
-
-    <div class="blog-footer">
-      <p>Blog template built for <a href="http://getbootstrap.com">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <footer>
+      <p>Blog built for <a href="http://getbootstrap.com">Rolling</a> by <a href="https://twitter.com/charley1991">@Charley</a>.</p>
       <p>
         <a href="#">Back to top</a>
-      </p>
-    </div>
+      <p/>
+    </footer>
+    
 
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
+    <!-- Bootstrap core JavaScript -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
